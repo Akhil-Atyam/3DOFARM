@@ -11,6 +11,10 @@ All code will be at the end, with schematics, as this is mainly a project about 
 
 My names in code are in stages and so this readme should serve as a good key for it to make more sense.
 
+CAD LINK: https://cad.onshape.com/documents/c7c8b1d49425d6c15c1b6fcf/w/1f61bd923d6c5709c7aad9cb/e/c750b924d66f9100911cf1d1?renderMode=0&uiState=6ae6a63f0fa04caa7f0796c0
+Note: Onshape is super slow if it is your first time opening a document. If it takes forever, that is expected, do not worry.
+It also requires a decent PC to render, iGPU works fine I have a radeon 860m.
+
 ### What did I want the arm to originally have?
 I wanted a turntable, shoulder, elbow, wrist, and claw
 
@@ -80,3 +84,25 @@ Although not pictured, but I cut up a portion of a sponge and glued it on so tha
 <img width="419" height="368" alt="image" src="https://github.com/user-attachments/assets/a3f40595-465e-4c9f-b4d5-929688f7a73b" />
 
 Thats the CAD over!!
+
+## Wiring
+
+Wiring was pretty simple, not much to remark, schematic below. One pin per servo
+
+<img width="547" height="346" alt="image" src="https://github.com/user-attachments/assets/e762bc09-9c23-4e40-8014-0a7e46cbd6e0" />
+
+I love KiCad Labels so much
+
+## Code
+All my code was done through Arduino IDE on an esp32s3
+AI was used in order for some kinematics stuff but it was mostly self-coded (C++ is no joke man)
+Inn order to fix the power requirements (i dont have enough power rn) my servos run intermittently, only stepping 10 degrees at a time. I find this saves a lot of power
+
+## BOM 
+Bom is included in readme
+
+## IRL Photos
+<img width="5712" height="4284" alt="IMG_8700" src="https://github.com/user-attachments/assets/678be8bb-4977-4ec6-8ef7-ce791e89159a" />
+<img width="4284" height="5712" alt="IMG_8699" src="https://github.com/user-attachments/assets/58d17680-71fb-4ed4-abde-4c4d916d59c2" />
+
+
